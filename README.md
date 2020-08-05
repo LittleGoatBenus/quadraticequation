@@ -6,4 +6,4 @@ requirements
 
 upcoming updates
 - The Y value
-- plotting your equation plus solution
+- plotting your equation plus solution onto a graph
