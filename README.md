@@ -2,8 +2,11 @@
 
 requirements 
 - pip3 install matplotlib
-- sudo pip3 install sympy
+- sudo pip3 install numpy
 
-upcoming updates
-- The Y value
-- plotting your equation plus solution onto a graph
+upcoming
+- cubic equations 
+- polynomials 
+- linear graphing
+
+
