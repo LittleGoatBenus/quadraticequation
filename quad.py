@@ -14,6 +14,8 @@ print("""
                                      .
 Quadratic equation calculator        .
                             with graph plotter
+                                             created by: LittleGoatBenus
+                                          
 """)
 
 a = int(input("a: "))
