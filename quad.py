@@ -63,7 +63,16 @@ def graph(a, b, c, fr0m, t0):
     y = [(a*i**2 + b*i + c) for i in x]
     plt.plot(x, y)
 
+fig = plt.figure() #this sets axis in the middle 
+ax = fig.add_subplot(1, 1, 1)
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('zero')
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+ax.xaxis.set_ticks_position('bottom')
+ax.yaxis.set_ticks_position('left')
 
-graph(a,b,c,fr0m,t0)
+
+graph(a,b,c,fr0m,t0) #calling the graphing function 
 plt.show(block=False)
 plt.pause(1000)
